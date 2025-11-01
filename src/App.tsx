@@ -1,5 +1,9 @@
+import { CardRow } from './components/card-row';
+
 export default function App() {
   return (
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="bg-black min-h-screen flex items-center justify-center">
+      <CardRow />
+    </div>
   );
 }
